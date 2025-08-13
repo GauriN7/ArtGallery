@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Art Gallery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container h-100 d-flex align-items-center">
+            <div class="hero-content text-white animate__animated animate__fadeInUp">
+                <h1 class="display-3 fw-bold">Discover Timeless Art</h1>
+                <p class="lead">Explore masterpieces from the world's greatest artists</p>
+                <a href="gallery.html" class="btn btn-primary btn-lg mt-3">View Gallery</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Artists -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Featured Artists</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card artist-card h-100 animate__animated animate__fadeIn">
+                        <img src="./Images/van gogh.png" class="card-img-top" alt="Vincent van Gogh">
+                        <div class="card-body">
+                            <h5 class="card-title">Vincent van Gogh</h5>
+                            <p class="card-text">Dutch Post-Impressionist painter who is among the most famous and influential figures in Western art history.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card artist-card h-100 animate__animated animate__fadeIn animate__delay-1s">
+                        <img src="./Images/da vinci.png" class="card-img-top" alt="Leonardo da Vinci">
+                        <div class="card-body">
+                            <h5 class="card-title">Leonardo da Vinci</h5>
+                            <p class="card-text">Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card artist-card h-100 animate__animated animate__fadeIn animate__delay-2s">
+                        <img src="./Images/picasso.png" class="card-img-top" alt="Pablo Picasso">
+                        <div class="card-body">
+                            <h5 class="card-title">Pablo Picasso</h5>
+                            <p class="card-text">Spanish painter, sculptor, printmaker, ceramicist and theatre designer who spent most of his adult life in France.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Ready to Explore?</h2>
+            <p class="lead mb-4">Join our community of art lovers today</p>
+            <a href="signup.html" class="btn btn-primary btn-lg me-3">Sign Up</a>
+            <a href="gallery.html" class="btn btn-outline-primary btn-lg">Browse Gallery</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Art Gallery</h5>
+                    <p>Celebrating the beauty of art through the ages.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="gallery.html" class="text-white">Gallery</a></li>
+                        <li><a href="login.html" class="text-white">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact</h5>
+                    <p>info@artgallery.com<br>+1 (555) 123-4567</p>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center mb-0">&copy; 2023 Art Gallery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

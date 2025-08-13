@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Persistence of Memory | Art Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation (same as other pages) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Art Gallery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Artwork Header -->
+    <header class="artwork-header py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold animate__animated animate__fadeIn">The Persistence of Memory</h1>
+                    <p class="lead text-muted animate__animated animate__fadeIn animate__delay-1s">Salvador Dalí, 1931</p>
+                    <div class="d-flex mt-4 animate__animated animate__fadeIn animate__delay-2s">
+                        <button class="btn btn-primary me-3">Add to Favorites</button>
+                        <button class="btn btn-outline-secondary">Share</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="artwork-image-container">
+                        <img src="./Images/persistance_memory.png" alt="The Persistence of Memory by Salvador Dalí" class="img-fluid rounded shadow artwork-image animate__animated animate__fadeInRight">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Artwork Details -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2 class="mb-4">About the Artwork</h2>
+                    <p class="lead">The Persistence of Memory is a 1931 painting by artist Salvador Dalí, and is one of his most recognizable works. The well-known surrealist piece introduces the image of the soft melting pocket watch.</p>
+                    
+                    <p>The painting has been in the collection of the Museum of Modern Art (MoMA) in New York City since 1934. It is widely recognized and frequently referenced in popular culture, and sometimes referred to by more descriptive titles, such as "Melting Clocks", "The Soft Watches" or "The Melting Watches".</p>
+                    
+                    <h3 class="mt-5 mb-3">Symbolism</h3>
+                    <p>The painting depicts a dreamworld in which common objects are deformed and displayed in a bizarre and irrational way. The soft watches are thought to represent the relativity of space and time, a concept that Dalí was fascinated with after reading Einstein's theory of relativity. The ants crawling on the orange clock may represent decay, while the fly on the other clock might symbolize the fleeting nature of time.</p>
+                    
+                    <h3 class="mt-5 mb-3">Dalí's Paranoiac-Critical Method</h3>
+                    <p>Dalí used what he called the "paranoiac-critical method" to create this work, accessing his subconscious through systematic irrational thought and self-induced paranoid states. This allowed him to create images beyond normal perception, resulting in the surreal, dreamlike quality of the painting. The landscape was inspired by Dalí's homeland, the Catalan coast, with the cliffs of Cap de Creus visible in the background.</p>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="card details-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Details</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <strong>Artist:</strong> Salvador Dalí
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Year:</strong> 1931
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Medium:</strong> Oil on canvas
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Dimensions:</strong> 24 cm × 33 cm (9.5 in × 13 in)
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Location:</strong> Museum of Modern Art, New York
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Movement:</strong> Surrealism
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Similar Artworks -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-5 text-center">Similar Artworks</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="./Images/the-disintegration-of-the-persistence-of-the-memory.png" class="card-img-top" alt="The Disintegration of the Persistence of Memory">
+                        <div class="card-body">
+                            <h5 class="card-title">The Disintegration of the Persistence of Memory</h5>
+                            <p class="card-text text-muted">Salvador Dalí, 1952–1954</p>
+                            <a href="#" class="btn btn-outline-primary stretched-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="./Images/swans-reflecting-elephants.png" class="card-img-top" alt="Swans Reflecting Elephants">
+                        <div class="card-body">
+                            <h5 class="card-title">Swans Reflecting Elephants</h5>
+                            <p class="card-text text-muted">Salvador Dalí, 1937</p>
+                            <a href="#" class="btn btn-outline-primary stretched-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="./Images/son-of-man.png" class="card-img-top" alt="The Son of Man">
+                        <div class="card-body">
+                            <h5 class="card-title">The Son of Man</h5>
+                            <p class="card-text text-muted">René Magritte, 1964</p>
+                            <a href="#" class="btn btn-outline-primary stretched-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as other pages) -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Art Gallery</h5>
+                    <p>Celebrating the beauty of art through the ages.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="gallery.html" class="text-white">Gallery</a></li>
+                        <li><a href="login.html" class="text-white">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact</h5>
+                    <p>info@artgallery.com<br>+1 (555) 123-4567</p>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center mb-0">&copy; 2023 Art Gallery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

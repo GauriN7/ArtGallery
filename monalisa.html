@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mona Lisa | Art Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation (same as other pages) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Art Gallery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Artwork Header -->
+    <header class="artwork-header py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold animate__animated animate__fadeIn">Mona Lisa</h1>
+                    <p class="lead text-muted animate__animated animate__fadeIn animate__delay-1s">Leonardo da Vinci, c. 1503–1519</p>
+                    <div class="d-flex mt-4 animate__animated animate__fadeIn animate__delay-2s">
+                        <button class="btn btn-primary me-3">Add to Favorites</button>
+                        <button class="btn btn-outline-secondary">Share</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="artwork-image-container">
+                        <img src="./Images/mona_lisa.jpg" alt="Mona Lisa by Leonardo da Vinci" class="img-fluid rounded shadow artwork-image animate__animated animate__fadeInRight">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Artwork Details -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2 class="mb-4">About the Artwork</h2>
+                    <p class="lead">The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as "the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world".</p>
+                    
+                    <p>The painting's novel qualities include the subject's enigmatic expression, the monumentality of the composition, the subtle modeling of forms, and the atmospheric illusionism. The painting has been permanently displayed at the Louvre Museum in Paris since 1797.</p>
+                    
+                    <h3 class="mt-5 mb-3">The Enigmatic Smile</h3>
+                    <p>The Mona Lisa's famous smile represents the sitter in the same way that the juniper branches represent Ginevra Benci and the ermine represents Cecilia Gallerani in their portraits, in Washington and Krakow respectively. It is a visual representation of the idea of happiness suggested by the word "gioconda" in Italian.</p>
+                    
+                    <h3 class="mt-5 mb-3">Historical Context</h3>
+                    <p>Leonardo da Vinci began painting the Mona Lisa about 1503, and it was in his studio when he died in 1519. He likely worked on it intermittently over several years, adding multiple layers of thin oil glazes at different times. Small cracks in the paint, called craquelure, appear throughout the whole piece, but they are finer on the hands, where the thinner glazes correspond to Leonardo's late period.</p>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="card details-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Details</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <strong>Artist:</strong> Leonardo da Vinci
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Year:</strong> c. 1503–1519
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Medium:</strong> Oil on poplar panel
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Dimensions:</strong> 77 cm × 53 cm (30 in × 21 in)
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Location:</strong> Louvre Museum, Paris
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Movement:</strong> High Renaissance
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Similar Artworks -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-5 text-center">Similar Artworks</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="./Images/emb.png" class="card-img-top" alt="Lady with an Ermine">
+                        <div class="card-body">
+                            <h5 class="card-title">Lady with an Ermine</h5>
+                            <p class="card-text text-muted">Leonardo da Vinci, 1489–1491</p>
+                            <a href="#" class="btn btn-outline-primary stretched-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="./Images/birth-of-venus.png" class="card-img-top" alt="The Birth of Venus">
+                        <div class="card-body">
+                            <h5 class="card-title">The Birth of Venus</h5>
+                            <p class="card-text text-muted">Sandro Botticelli, c. 1485–1486</p>
+                            <a href="#" class="btn btn-outline-primary stretched-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="./Images/potrait of smom.png" class="card-img-top" alt="Portrait of Baldassare Castiglione">
+                        <div class="card-body">
+                            <h5 class="card-title">Portrait of Baldassare Castiglione</h5>
+                            <p class="card-text text-muted">Raphael, 1514–1515</p>
+                            <a href="#" class="btn btn-outline-primary stretched-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as other pages) -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Art Gallery</h5>
+                    <p>Celebrating the beauty of art through the ages.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="gallery.html" class="text-white">Gallery</a></li>
+                        <li><a href="login.html" class="text-white">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact</h5>
+                    <p>info@artgallery.com<br>+1 (555) 123-4567</p>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center mb-0">&copy; 2023 Art Gallery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
